@@ -127,3 +127,17 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# .DS_Store
+.DS_Store
+
+# ./data
+data/
+data_notebooks/
+data.zip
+
+# pickle files
+*.pickle
+
+# ./output
+output/
