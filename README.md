@@ -65,16 +65,16 @@ and a test set, consisting of data from 22078 observations. After training, the 
 
 The trained DNN obtained a final Mean Squared Error (MSE) of 39.98 on the test set. 
 
-![Prediction vs. True](Graphics/20210423_results1.png)
+![Prediction vs. True](Graphics/20210423_result1.png)
 
 The Figure show our trained models predictions on the test set. 
 The model’s predictions are close to the actual power measured no matter of the specifics of an observation. 
 This indicates that the DNN has indeed managed to learn a representation for the cyclists’ physical response. 
 
-![Error distribution](Graphics/20210423_results2.png)
+![Error distribution](Graphics/20210423_result2.png)
 
 The figure above show the error distribution for the model. 
-It is getting clear that main fault tolerancethe is between -1.5 watt and 2 watt.
+It is getting clear that main fault tolerancethe is between -1.5 Watts and 2 Watts.
 
 ## Limitations
 
