@@ -28,7 +28,7 @@ The term “deep” usually refers to the number of hidden layers in the neural 
 
 Deep learning models are trained by using large sets of labeled data and neural network architectures that learn features directly from the data without the need for manual feature extraction.
 
-![Deep Neural_Network]("Graphics/20210422_DNN.png")
+![Deep Neural_Network](Graphics/20210422_DNN.png)
 
 Neural networks, which are organized in layers consisting of a set of interconnected nodes. Networks can have tens or hundreds of hidden layers.
 
@@ -65,13 +65,13 @@ and a test set, consisting of data from 22078 observations. After training, the 
 
 The trained DNN obtained a final Mean Squared Error (MSE) of 39.98 on the test set. 
 
-![Prediction vs. True]("Graphics/20210423_results1.png")
+![Prediction vs. True](Graphics/20210423_results1.png)
 
 The Figure show our trained models predictions on the test set. 
 The model’s predictions are close to the actual power measured no matter of the specifics of an observation. 
 This indicates that the DNN has indeed managed to learn a representation for the cyclists’ physical response. 
 
-![Error distribution]("Graphics/20210423_results2.png")
+![Error distribution](Graphics/20210423_results2.png)
 
 The figure above show the error distribution for the model. 
 It is getting clear that main fault tolerancethe is between -1.5 watt and 2 watt.
